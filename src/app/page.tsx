@@ -40,8 +40,8 @@ export default function LandingPage() {
           title="Welcome to Alipress Online Store"
           description="Your trusted online marketplace for quality products at amazing prices. From electronics and fashion to home essentials and beauty products, we bring everything you need into one convenient store. Shop smarter. Save more. Enjoy fast and easy ordering."
           tag="Everything You Need, Delivered With Ease"
-          background={{ variant: "canvas-reveal" }}
-          imageSrc="http://img.b2bpic.net/free-photo/online-shopping-cart-e-commers-concept_53876-127436.jpg?_wi=1"
+          background={{ variant: "plain" }}
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AY61vq2SVtl68udk7pxb2b8lWV/uploaded-1772757597469-995oq7b5.jpg"
           imageAlt="Alipress Online Store hero banner"
           buttons={[
             { text: "Shop Now", href: "#products" },
@@ -49,6 +49,10 @@ export default function LandingPage() {
           ]}
           tagAnimation="slide-up"
           buttonAnimation="slide-up"
+          containerClassName="bg-cover bg-center"
+          titleClassName="text-white drop-shadow-lg"
+          descriptionClassName="text-white drop-shadow-md"
+          tagClassName="text-white"
         />
       </div>
 
