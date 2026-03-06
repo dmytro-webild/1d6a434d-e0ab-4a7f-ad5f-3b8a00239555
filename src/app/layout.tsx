@@ -1,56 +1,22 @@
 import type { Metadata } from "next";
-import { Halant } from "next/font/google";
 import { Inter } from "next/font/google";
-import { Lato } from "next/font/google";
 import "./globals.css";
-import { ServiceWrapper } from "@/components/ServiceWrapper";
-import Tag from "@/tag/Tag";
+import "./styles/variables.css";
+import "./styles/base.css";
 
-const halant = Halant({
-  variable: "--font-halant",  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
-});
-
-const inter = Inter({
-  variable: "--font-inter",  subsets: ["latin"],
-});
-
-const lato = Lato({
-  variable: "--font-lato",  subsets: ["latin"],
-  weight: ["100", "300", "400", "700", "900"],
-});
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Alipress Online Store - Quality Products at Amazing Prices",  description: "Shop at Alipress Online Store for electronics, fashion, home essentials, beauty products and more. Fast delivery, affordable prices, and excellent customer support.",  keywords: "online store, marketplace, shopping, electronics, fashion, home, beauty, affordable products",  openGraph: {
-    title: "Alipress Online Store",    description: "Your trusted online marketplace for quality products at amazing prices.",    siteName: "Alipress Online Store",    type: "website",    images: [
-      {
-        url: "http://img.b2bpic.net/free-photo/online-shopping-cart-e-commers-concept_53876-127436.jpg",        alt: "online store marketplace ecommerce shopping"
-      }
-    ]
-  },
-  twitter: {
-    card: "summary_large_image",    title: "Alipress Online Store",    description: "Quality products at amazing prices. Shop now!",    images: ["http://img.b2bpic.net/free-photo/online-shopping-cart-e-commers-concept_53876-127436.jpg"]
-  },
-  robots: {
-    index: true,
-    follow: true
-  }
-};
+  title: "Alipress Online Store",  description: "Your trusted online marketplace for quality products at amazing prices"};
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <ServiceWrapper>
-        <body
-          className={`${halant.variable} ${inter.variable} ${lato.variable} antialiased`}
-        >
-          <Tag />
-          {children}
-        
+    <html lang="en">
+      <body className={inter.className}>{children}
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -1418,7 +1384,6 @@ export default function RootLayout({
           }}
         />
       </body>
-      </ServiceWrapper>
     </html>
   );
 }
