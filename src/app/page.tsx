@@ -17,7 +17,7 @@ export default function LandingPage() {
       borderRadius="rounded"
       contentWidth="mediumSmall"
       sizing="mediumLargeSizeLargeTitles"
-      background="aurora"
+      background="circleGradient"
       cardStyle="soft-shadow"
       primaryButtonStyle="shadow"
       secondaryButtonStyle="solid"
@@ -40,8 +40,8 @@ export default function LandingPage() {
           title="Welcome to Alipress Online Store"
           description="Your trusted online marketplace for quality products at amazing prices. From electronics and fashion to home essentials and beauty products, we bring everything you need into one convenient store. Shop smarter. Save more. Enjoy fast and easy ordering."
           tag="Everything You Need, Delivered With Ease"
-          background={{ variant: "aurora" }}
-          imageSrc="http://img.b2bpic.net/free-photo/online-shopping-cart-e-commers-concept_53876-127436.jpg?_wi=1"
+          background={{ variant: "canvas-reveal" }}
+          imageSrc="http://img.b2bpic.net/free-photo/online-shopping-cart-e-commers-concept_53876-127436.jpg"
           imageAlt="Alipress Online Store hero banner"
           buttons={[
             { text: "Shop Now", href: "#products" },
@@ -58,16 +58,16 @@ export default function LandingPage() {
           description="Explore our wide selection of products across multiple categories designed for every need and lifestyle."
           features={[
             {
-              id: "electronics",              title: "Electronics",              description: "Smartphones, accessories, headphones, smart watches, chargers and gadgets.",              tag: "Tech",              imageSrc: "http://img.b2bpic.net/free-photo/laptop-headset-phone-table_146671-13973.jpg?_wi=1",              imageAlt: "electronics smartphones gadgets tech"
+              id: "electronics",              title: "Electronics",              description: "Smartphones, accessories, headphones, smart watches, chargers and gadgets.",              tag: "Tech",              imageSrc: "http://img.b2bpic.net/free-photo/laptop-headset-phone-table_146671-13973.jpg",              imageAlt: "electronics smartphones gadgets tech"
             },
             {
-              id: "fashion",              title: "Fashion",              description: "Men's clothing, women's clothing, shoes, bags, watches and jewelry.",              tag: "Style",              imageSrc: "http://img.b2bpic.net/free-photo/belt-wooden-elegance-clothes-mens_1203-6422.jpg?_wi=1",              imageAlt: "fashion clothing shoes apparel"
+              id: "fashion",              title: "Fashion",              description: "Men's clothing, women's clothing, shoes, bags, watches and jewelry.",              tag: "Style",              imageSrc: "http://img.b2bpic.net/free-photo/belt-wooden-elegance-clothes-mens_1203-6422.jpg",              imageAlt: "fashion clothing shoes apparel"
             },
             {
-              id: "home",              title: "Home & Kitchen",              description: "Cooking tools, kitchen appliances, home decorations, cleaning tools and furniture.",              tag: "Living",              imageSrc: "http://img.b2bpic.net/free-photo/interior-design-house-modern-white-kitchen_657883-328.jpg?_wi=1",              imageAlt: "home decor kitchen furniture interior"
+              id: "home",              title: "Home & Kitchen",              description: "Cooking tools, kitchen appliances, home decorations, cleaning tools and furniture.",              tag: "Living",              imageSrc: "http://img.b2bpic.net/free-photo/interior-design-house-modern-white-kitchen_657883-328.jpg",              imageAlt: "home decor kitchen furniture interior"
             },
             {
-              id: "beauty",              title: "Beauty & Health",              description: "Skincare, hair products, perfumes, cosmetics and personal care items.",              tag: "Care",              imageSrc: "http://img.b2bpic.net/free-photo/natural-skincare-cosmetic-product-orange-background_23-2147817986.jpg?_wi=1",              imageAlt: "beauty skincare cosmetics personal care"
+              id: "beauty",              title: "Beauty & Health",              description: "Skincare, hair products, perfumes, cosmetics and personal care items.",              tag: "Care",              imageSrc: "http://img.b2bpic.net/free-photo/natural-skincare-cosmetic-product-orange-background_23-2147817986.jpg",              imageAlt: "beauty skincare cosmetics personal care"
             },
             {
               id: "kids",              title: "Kids & Toys",              description: "Educational toys, baby accessories, games and fun products for children.",              tag: "Fun",              imageSrc: "http://img.b2bpic.net/free-photo/plastic-eccano-set_1398-2179.jpg",              imageAlt: "toys kids children games"
@@ -90,16 +90,16 @@ export default function LandingPage() {
               id: "earbuds",              name: "Wireless Earbuds Pro",              price: "$45.99",              variant: "White, Black, Gold",              imageSrc: "http://img.b2bpic.net/free-photo/still-life-wireless-cyberpunk-headphones_23-2151072189.jpg",              imageAlt: "Wireless Earbuds Pro",              isFavorited: false
             },
             {
-              id: "smartwatch",              name: "Smart Watch Elite",              price: "$89.99",              variant: "Multiple Sizes",              imageSrc: "http://img.b2bpic.net/free-photo/sporty-active-woman-casual-t-shirt-looks-smartwatch-focused-screen-smiles-gladfully-satisfied-after-wokout-listens-music-wireless-headphones-poses-outdoors-against-urban-surroundings_273609-57760.jpg?_wi=1",              imageAlt: "Smart Watch Elite",              isFavorited: false
+              id: "smartwatch",              name: "Smart Watch Elite",              price: "$89.99",              variant: "Multiple Sizes",              imageSrc: "http://img.b2bpic.net/free-photo/sporty-active-woman-casual-t-shirt-looks-smartwatch-focused-screen-smiles-gladfully-satisfied-after-wokout-listens-music-wireless-headphones-poses-outdoors-against-urban-surroundings_273609-57760.jpg",              imageAlt: "Smart Watch Elite",              isFavorited: false
             },
             {
               id: "sneakers",              name: "Fashion Sneakers",              price: "$59.99",              variant: "Sizes 6-13",              imageSrc: "http://img.b2bpic.net/free-photo/canvas-sneakers-green-model-tying-shoelaces-apparel-ad_53876-101198.jpg",              imageAlt: "Fashion Sneakers",              isFavorited: false
             },
             {
-              id: "ring-light",              name: "LED Ring Light",              price: "$34.99",              variant: "With Stand",              imageSrc: "http://img.b2bpic.net/free-photo/front-view-woman-relaxing-home_23-2150652861.jpg?_wi=1",              imageAlt: "LED Ring Light",              isFavorited: false
+              id: "ring-light",              name: "LED Ring Light",              price: "$34.99",              variant: "With Stand",              imageSrc: "http://img.b2bpic.net/free-photo/front-view-woman-relaxing-home_23-2150652861.jpg",              imageAlt: "LED Ring Light",              isFavorited: false
             },
             {
-              id: "blender",              name: "Portable Blender",              price: "$29.99",              variant: "Cordless",              imageSrc: "http://img.b2bpic.net/free-photo/electronic-device-table_417767-143.jpg?_wi=1",              imageAlt: "Portable Blender",              isFavorited: false
+              id: "blender",              name: "Portable Blender",              price: "$29.99",              variant: "Cordless",              imageSrc: "http://img.b2bpic.net/free-photo/electronic-device-table_417767-143.jpg",              imageAlt: "Portable Blender",              isFavorited: false
             }
           ]}
           gridVariant="uniform-all-items-equal"
@@ -119,19 +119,19 @@ export default function LandingPage() {
           description="We're committed to providing you with the best shopping experience possible with quality products, fast service, and excellent support."
           features={[
             {
-              id: "price",              title: "Affordable Prices",              description: "We provide high-quality products at competitive prices.",              tag: "Value",              imageSrc: "http://img.b2bpic.net/free-photo/online-shopping-cart-e-commers-concept_53876-127436.jpg?_wi=2",              imageAlt: "online store marketplace ecommerce shopping"
+              id: "price",              title: "Affordable Prices",              description: "We provide high-quality products at competitive prices.",              tag: "Value",              imageSrc: "http://img.b2bpic.net/free-photo/online-shopping-cart-e-commers-concept_53876-127436.jpg",              imageAlt: "online store marketplace ecommerce shopping"
             },
             {
-              id: "speed",              title: "Fast Ordering",              description: "Quick and simple ordering process through our platform or WhatsApp.",              tag: "Convenience",              imageSrc: "http://img.b2bpic.net/free-photo/laptop-headset-phone-table_146671-13973.jpg?_wi=2",              imageAlt: "electronics smartphones gadgets tech"
+              id: "speed",              title: "Fast Ordering",              description: "Quick and simple ordering process through our platform or WhatsApp.",              tag: "Convenience",              imageSrc: "http://img.b2bpic.net/free-photo/laptop-headset-phone-table_146671-13973.jpg",              imageAlt: "electronics smartphones gadgets tech"
             },
             {
-              id: "selection",              title: "Wide Product Selection",              description: "Thousands of products in different categories to meet every need.",              tag: "Variety",              imageSrc: "http://img.b2bpic.net/free-photo/belt-wooden-elegance-clothes-mens_1203-6422.jpg?_wi=2",              imageAlt: "fashion clothing shoes apparel"
+              id: "selection",              title: "Wide Product Selection",              description: "Thousands of products in different categories to meet every need.",              tag: "Variety",              imageSrc: "http://img.b2bpic.net/free-photo/belt-wooden-elegance-clothes-mens_1203-6422.jpg",              imageAlt: "fashion clothing shoes apparel"
             },
             {
-              id: "support",              title: "Customer Support",              description: "Friendly support team ready to assist you anytime via WhatsApp and email.",              tag: "Reliability",              imageSrc: "http://img.b2bpic.net/free-photo/interior-design-house-modern-white-kitchen_657883-328.jpg?_wi=2",              imageAlt: "home decor kitchen furniture interior"
+              id: "support",              title: "Customer Support",              description: "Friendly support team ready to assist you anytime via WhatsApp and email.",              tag: "Reliability",              imageSrc: "http://img.b2bpic.net/free-photo/interior-design-house-modern-white-kitchen_657883-328.jpg",              imageAlt: "home decor kitchen furniture interior"
             },
             {
-              id: "security",              title: "Secure Shopping",              description: "Your orders and personal information are safe and protected with us.",              tag: "Trust",              imageSrc: "http://img.b2bpic.net/free-photo/natural-skincare-cosmetic-product-orange-background_23-2147817986.jpg?_wi=2",              imageAlt: "beauty skincare cosmetics personal care"
+              id: "security",              title: "Secure Shopping",              description: "Your orders and personal information are safe and protected with us.",              tag: "Trust",              imageSrc: "http://img.b2bpic.net/free-photo/natural-skincare-cosmetic-product-orange-background_23-2147817986.jpg",              imageAlt: "beauty skincare cosmetics personal care"
             }
           ]}
           animationType="blur-reveal"
@@ -147,19 +147,19 @@ export default function LandingPage() {
           tag="Latest Additions"
           products={[
             {
-              id: "led-lamp",              name: "Smart LED Lamp",              price: "$32.99",              variant: "Adjustable Brightness",              imageSrc: "http://img.b2bpic.net/free-photo/front-view-woman-relaxing-home_23-2150652861.jpg?_wi=2",              imageAlt: "Smart LED Lamp",              isFavorited: false
+              id: "led-lamp",              name: "Smart LED Lamp",              price: "$32.99",              variant: "Adjustable Brightness",              imageSrc: "http://img.b2bpic.net/free-photo/front-view-woman-relaxing-home_23-2150652861.jpg",              imageAlt: "Smart LED Lamp",              isFavorited: false
             },
             {
-              id: "handbag",              name: "Luxury Handbag",              price: "$79.99",              variant: "Premium Leather",              imageSrc: "http://img.b2bpic.net/free-photo/belt-wooden-elegance-clothes-mens_1203-6422.jpg?_wi=3",              imageAlt: "Luxury Handbag",              isFavorited: false
+              id: "handbag",              name: "Luxury Handbag",              price: "$79.99",              variant: "Premium Leather",              imageSrc: "http://img.b2bpic.net/free-photo/belt-wooden-elegance-clothes-mens_1203-6422.jpg",              imageAlt: "Luxury Handbag",              isFavorited: false
             },
             {
-              id: "bluetooth-speaker",              name: "Portable Bluetooth Speaker",              price: "$42.99",              variant: "Waterproof",              imageSrc: "http://img.b2bpic.net/free-photo/electronic-device-table_417767-143.jpg?_wi=2",              imageAlt: "Portable Bluetooth Speaker",              isFavorited: false
+              id: "bluetooth-speaker",              name: "Portable Bluetooth Speaker",              price: "$42.99",              variant: "Waterproof",              imageSrc: "http://img.b2bpic.net/free-photo/electronic-device-table_417767-143.jpg",              imageAlt: "Portable Bluetooth Speaker",              isFavorited: false
             },
             {
-              id: "fitness-watch",              name: "Fitness Smart Watch",              price: "$64.99",              variant: "Multiple Colors",              imageSrc: "http://img.b2bpic.net/free-photo/sporty-active-woman-casual-t-shirt-looks-smartwatch-focused-screen-smiles-gladfully-satisfied-after-wokout-listens-music-wireless-headphones-poses-outdoors-against-urban-surroundings_273609-57760.jpg?_wi=2",              imageAlt: "Fitness Smart Watch",              isFavorited: false
+              id: "fitness-watch",              name: "Fitness Smart Watch",              price: "$64.99",              variant: "Multiple Colors",              imageSrc: "http://img.b2bpic.net/free-photo/sporty-active-woman-casual-t-shirt-looks-smartwatch-focused-screen-smiles-gladfully-satisfied-after-wokout-listens-music-wireless-headphones-poses-outdoors-against-urban-surroundings_273609-57760.jpg",              imageAlt: "Fitness Smart Watch",              isFavorited: false
             },
             {
-              id: "phone-charger",              name: "Wireless Phone Charger",              price: "$24.99",              variant: "Fast Charging",              imageSrc: "http://img.b2bpic.net/free-photo/laptop-headset-phone-table_146671-13973.jpg?_wi=3",              imageAlt: "Wireless Phone Charger",              isFavorited: false
+              id: "phone-charger",              name: "Wireless Phone Charger",              price: "$24.99",              variant: "Fast Charging",              imageSrc: "http://img.b2bpic.net/free-photo/laptop-headset-phone-table_146671-13973.jpg",              imageAlt: "Wireless Phone Charger",              isFavorited: false
             }
           ]}
           gridVariant="uniform-all-items-equal"
